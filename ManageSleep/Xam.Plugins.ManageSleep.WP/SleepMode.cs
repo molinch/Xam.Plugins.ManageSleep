@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.Phone.Shell;
+using Xam.Plugins.ManageSleep.Common;
 
 namespace Xam.Plugins.ManageSleep.Touch
 {
@@ -11,8 +12,8 @@ namespace Xam.Plugins.ManageSleep.Touch
         /// <param name="activateAutoSleepMode">If set to <c>true</c> activates auto sleep mode.</param>
         public override bool ActivateAutoSleepMode(bool activateAutoSleepMode)
         {
-            OriginalIdleMode = Microsoft.Phone.Shell.PhoneApplicationService.Current.UserIdleDetectionMode;
-            Microsoft.Phone.Shell.PhoneApplicationService.Current.UserIdleDetectionMode = ;
+            //FMT: to implement
+            //Microsoft.Phone.Shell.PhoneApplicationService.Current.UserIdleDetectionMode = ;
         }
     }
 }

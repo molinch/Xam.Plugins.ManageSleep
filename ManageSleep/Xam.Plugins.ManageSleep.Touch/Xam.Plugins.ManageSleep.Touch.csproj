@@ -24,14 +24,13 @@
     <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <DocumentationFile>bin\iPhone\Release\StoreRating.Forms.Plugin.iOS.XML</DocumentationFile>
+    <DocumentationFile>bin\iPhone\Release\Xam.Plugins.ManageSleep.Touch.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -43,9 +42,6 @@
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Properties\_SettingsStarted.txt" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.1.2.3.6257\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.2.3.6257\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -55,9 +51,9 @@
     <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.2.3.6257\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.2.3.6257\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets'))" />
   </Target>
   <ItemGroup>
-    <ProjectReference Include="..\ManageSleep.Forms.Plugin.Abstractions\Xam.Plugins.ManageSleep.Abstractions.csproj">
+    <ProjectReference Include="..\Xam.Plugins.ManageSleep.Common\Xam.Plugins.ManageSleep.Common.csproj">
       <Project>{14C534B6-1984-41A9-A384-D3A5508588E3}</Project>
-      <Name>Xam.Plugins.ManageSleep.Abstractions</Name>
+      <Name>Xam.Plugins.ManageSleep.Common</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

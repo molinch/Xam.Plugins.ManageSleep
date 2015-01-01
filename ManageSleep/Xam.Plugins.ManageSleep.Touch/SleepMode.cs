@@ -1,6 +1,6 @@
 ﻿using System;
 using MonoTouch.UIKit;
-using Xam.Plugins.ManageSleep.Abstractions;
+using Xam.Plugins.ManageSleep.Common;
 
 namespace Xam.Plugins.ManageSleep.Touch
 {

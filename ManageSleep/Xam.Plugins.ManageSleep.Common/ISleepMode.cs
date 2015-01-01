@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Xam.Plugins.ManageSleep.Abstractions
+namespace Xam.Plugins.ManageSleep.Common
 {
     public interface ISleepMode
     {

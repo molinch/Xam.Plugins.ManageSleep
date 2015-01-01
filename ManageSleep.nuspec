@@ -6,7 +6,7 @@
        <title>ManageSleep Plugin for Xamarin</title>
        <authors>Molinet Fabien</authors>
        <owners></owners>
-       <licenseUrl></licenseUrl>
+       <licenseUrl>https://github.com/molinch/Xam.Plugins.ManageSleep/LICENSE.md</licenseUrl>
        <projectUrl>https://github.com/molinch/Xam.Plugins.ManageSleep</projectUrl>
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
        <description>
@@ -20,32 +20,27 @@
    </metadata>
    <files>
 <!--Core-->
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.dll" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10\Xam.Plugins.ManageSleep.Abstractions.dll" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.xml" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xam.Plugins.ManageSleep.Abstractions.xml" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.pdb" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xam.Plugins.ManageSleep.Abstractions.pdb" />
-
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/portable-net45+wp8+win8+MonoAndroid10+MonoTouch10/Xam.Plugins.ManageSleep.Common.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xam.Plugins.ManageSleep.Common.xml" />
+    
      <!--Win Phone Silverlight-->
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.WP\bin\Release\Xam.Plugins.ManageSleep.WP.dll" target="lib\wp8\Xam.Plugins.ManageSleep.WP.dll" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.WP\bin\Release\Xam.Plugins.ManageSleep.WP.xml" target="lib\wp8\Xam.Plugins.ManageSleep.WP.xml" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.WP\bin\Release\Xam.Plugins.ManageSleep.WP.pdb" target="lib\wp8\Xam.Plugins.ManageSleep.WP.pdb" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.dll" target="lib\wp8\Xam.Plugins.ManageSleep.Abstractions.dll" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.xml" target="lib\wp8\Xam.Plugins.ManageSleep.Abstractions.xml" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.pdb" target="lib\wp8\Xam.Plugins.ManageSleep.Abstractions.pdb" />
-
+     <!-- FMT: unable to compile for WP since I have a Mac with Xamarin Studio...
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.WP/bin/Release/Xam.Plugins.ManageSleep.WP.dll" target="lib/wp8/Xam.Plugins.ManageSleep.WP.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.WP/bin/Release/Xam.Plugins.ManageSleep.WP.xml" target="lib/wp8/Xam.Plugins.ManageSleep.WP.xml" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/wp8/Xam.Plugins.ManageSleep.Common.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/wp8/Xam.Plugins.ManageSleep.Common.xml" />
+  	 -->
+    
      <!--Xamarin.Android-->
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Droid\bin\Release\Xam.Plugins.ManageSleep.WP.dll" target="lib\MonoAndroid10\Xam.Plugins.ManageSleep.Droid.dll" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Droid\bin\Release\Xam.Plugins.ManageSleep.WP.xml" target="lib\MonoAndroid10\Xam.Plugins.ManageSleep.Droid.xml" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Droid\bin\Release\Xam.Plugins.ManageSleep.WP.pdb" target="lib\MonoAndroid10\Xam.Plugins.ManageSleep.Droid.pdb" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.dll" target="lib\MonoAndroid10\Xam.Plugins.ManageSleep.Abstractions.dll" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.xml" target="lib\MonoAndroid10\Xam.Plugins.ManageSleep.Abstractions.xml" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.pdb" target="lib\MonoAndroid10\Xam.Plugins.ManageSleep.Abstractions.pdb" />
-
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Droid/bin/Release/Xam.Plugins.ManageSleep.Droid.dll" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Droid.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Droid/bin/Release/Xam.Plugins.ManageSleep.Droid.xml" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Droid.xml" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Common.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Common.xml" />
+    
      <!--Xamarin.iOS-->
-	 <file src="ManageSleep\Xam.Plugins.ManageSleep.Touch\bin\Release\Xam.Plugins.ManageSleep.WP.dll" target="lib\MonoTouch10\Xam.Plugins.ManageSleep.Touch.dll" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Touch\bin\Release\Xam.Plugins.ManageSleep.WP.xml" target="lib\MonoTouch10\Xam.Plugins.ManageSleep.Touch.xml" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Touch\bin\Release\Xam.Plugins.ManageSleep.WP.pdb" target="lib\MonoTouch10\Xam.Plugins.ManageSleep.Touch.pdb" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.dll" target="lib\MonoTouch10\Xam.Plugins.ManageSleep.Abstractions.dll" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.xml" target="lib\MonoTouch10\Xam.Plugins.ManageSleep.Abstractions.xml" />
-     <file src="ManageSleep\Xam.Plugins.ManageSleep.Abstractions\bin\Release\Xam.Plugins.ManageSleep.Abstractions.pdb" target="lib\MonoTouch10\Xam.Plugins.ManageSleep.Abstractions.pdb" />
+	 <file src="ManageSleep/Xam.Plugins.ManageSleep.Touch/bin/iPhone/Release/Xam.Plugins.ManageSleep.Touch.dll" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Touch.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Touch/bin/iPhone/Release/Xam.Plugins.ManageSleep.Touch.xml" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Touch.xml" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Common.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Common.xml" />
    </files>
 </package>

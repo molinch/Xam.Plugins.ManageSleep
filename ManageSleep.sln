@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Plugins.ManageSleep.Abstractions", "ManageSleep\Xam.Plugins.ManageSleep.Common\Xam.Plugins.ManageSleep.Abstractions.csproj", "{14C534B6-1984-41A9-A384-D3A5508588E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Plugins.ManageSleep.Common", "ManageSleep\Xam.Plugins.ManageSleep.Common\Xam.Plugins.ManageSleep.Common.csproj", "{14C534B6-1984-41A9-A384-D3A5508588E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Plugins.ManageSleep.Touch", "ManageSleep\Xam.Plugins.ManageSleep.Touch\Xam.Plugins.ManageSleep.Touch.csproj", "{D525F236-6A2D-4010-B1CC-4A4B8581C90B}"
 EndProject
@@ -70,7 +70,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = ManageSleep\ManageSleep.Forms.Plugin.Abstractions\Xam.Plugins.ManageSleep.Abstractions.csproj
+		StartupItem = ManageSleep\Xam.Plugins.ManageSleep.Common\Xam.Plugins.ManageSleep.Common.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
