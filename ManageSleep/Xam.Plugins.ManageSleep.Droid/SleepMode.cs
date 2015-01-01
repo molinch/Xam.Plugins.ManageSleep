@@ -1,10 +1,9 @@
 ﻿using System;
 using Android.Content;
-using Xam.Plugins.ManageSleep.Common;
+using Xam.Plugins.ManageSleep;
 
-namespace Xam.Plugins.ManageSleep.Droid
+namespace Xam.Plugins.ManageSleep
 {
-    // FMT: important this class should be registered manually since the constructor expects an Android Context
     public class SleepMode: SleepModeBase, IDisposable
     {
         private readonly Context _context;

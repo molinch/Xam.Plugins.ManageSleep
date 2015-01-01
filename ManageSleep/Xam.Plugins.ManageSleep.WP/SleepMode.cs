@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.Phone.Shell;
-using Xam.Plugins.ManageSleep.Common;
+using Xam.Plugins.ManageSleep;
 
-namespace Xam.Plugins.ManageSleep.Touch
+namespace Xam.Plugins.ManageSleep
 {
     public class SleepMode: SleepModeBase
     {

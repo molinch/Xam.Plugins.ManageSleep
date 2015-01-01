@@ -1,8 +1,13 @@
 ﻿using System;
-using MonoTouch.UIKit;
-using Xam.Plugins.ManageSleep.Common;
+using Xam.Plugins.ManageSleep;
 
-namespace Xam.Plugins.ManageSleep.Touch
+#if __UNIFIED__
+using UIKit;
+#else
+using MonoTouch.UIKit;
+#endif
+
+namespace Xam.Plugins.ManageSleep
 {
     public class SleepMode: SleepModeBase
     {
