@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Plugins.ManageSleep.Abstractions", "ManageSleep\Xam.Plugins.ManageSleep.Common\Xam.Plugins.ManageSleep.Abstractions.csproj", "{14C534B6-1984-41A9-A384-D3A5508588E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Plugins.ManageSleep.Touch", "ManageSleep\Xam.Plugins.ManageSleep.Touch\Xam.Plugins.ManageSleep.Touch.csproj", "{D525F236-6A2D-4010-B1CC-4A4B8581C90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageSleep.Forms.Plugin.WindowsPhone", "ManageSleep\Xam.Plugins.ManageSleep.WP\ManageSleep.Forms.Plugin.WindowsPhone.csproj", "{983B7EFF-7E75-4A87-890A-744A0B4C5232}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48F767A7-58D9-437F-96A5-926D52C93C7C}"
+	ProjectSection(SolutionItems) = preProject
+		ManageSleep.nuspec = ManageSleep.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Plugins.ManageSleep.Droid", "ManageSleep\Xam.Plugins.ManageSleep.Droid\Xam.Plugins.ManageSleep.Droid.csproj", "{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Release|ARM.ActiveCfg = Release|Any CPU
+		{14C534B6-1984-41A9-A384-D3A5508588E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Release|ARM.Build.0 = Release|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E3FE4D8-BFF4-4FE1-ABD9-1D360D92A186}.Release|x86.Build.0 = Release|Any CPU
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Debug|ARM.ActiveCfg = Debug|ARM
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Debug|ARM.Build.0 = Debug|ARM
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Debug|x86.ActiveCfg = Debug|x86
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Debug|x86.Build.0 = Debug|x86
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Release|ARM.ActiveCfg = Release|ARM
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Release|ARM.Build.0 = Release|ARM
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Release|x86.ActiveCfg = Release|x86
+		{983B7EFF-7E75-4A87-890A-744A0B4C5232}.Release|x86.Build.0 = Release|x86
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D525F236-6A2D-4010-B1CC-4A4B8581C90B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ManageSleep\ManageSleep.Forms.Plugin.Abstractions\Xam.Plugins.ManageSleep.Abstractions.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

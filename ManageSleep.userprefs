@@ -1,0 +1,11 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>ManageSleep/ManageSleep.Forms.Plugin.WindowsPhone/ManageSleep.Forms.Plugin.WindowsPhone.csproj</String>
+  </DisabledProjects>
+</Properties>
