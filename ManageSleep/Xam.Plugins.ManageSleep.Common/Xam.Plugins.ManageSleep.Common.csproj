@@ -38,6 +38,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SleepModeBase.cs" />
     <Compile Include="ISleepMode.cs" />
+    <Compile Include="SleepMode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

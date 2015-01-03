@@ -9,18 +9,13 @@ namespace Xam.Plugins.ManageSleep
         private readonly Context _context;
         private Android.OS.PowerManager.WakeLock _wakeLock;
 
-        public SleepMode(Context context)
-        {
-            _context = context;
-        }
-
         /// <summary>
         /// Activates or desactivates the auto sleep mode. True to activate it (default), False to deactivate it.
         /// </summary>
         /// <param name="activateAutoSleepMode">If set to <c>true</c> activates auto sleep mode.</param>
         public override void ActivateAutoSleepMode(bool activateAutoSleepMode)
         {
-            var powerMgr = (Android.OS.PowerManager) _context.GetSystemService(Context.PowerService);
+            var powerMgr = (Android.OS.PowerManager) Android.App.Application.Context.GetSystemService(Context.PowerService);
 
             if (_wakeLock == null)
             {
