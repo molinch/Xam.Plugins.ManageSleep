@@ -27,7 +27,7 @@ Example:
 ```C#
 var sleepMode = new SleepMode();
 sleepMode.DoWithoutSleep(() => {
-  long running operation...
+  //long running operation...
 });
 ```
 
