@@ -6,6 +6,7 @@
        <title>ManageSleep Plugin for Xamarin</title>
        <authors>Molinet Fabien</authors>
        <owners></owners>
+       <iconUrl>http://s10.postimg.org/5xopbbe1h/Manage_Sleep_Icon.png</iconUrl>
        <licenseUrl>https://raw.githubusercontent.com/molinch/Xam.Plugins.ManageSleep/master/LICENSE.md</licenseUrl>
        <projectUrl>https://github.com/molinch/Xam.Plugins.ManageSleep</projectUrl>
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
