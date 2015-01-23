@@ -46,6 +46,12 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="SleepMode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\Xam.Plugins.ManageSleep.Common\ISleepMode.cs">
+      <Link>ISleepMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Xam.Plugins.ManageSleep.Common\SleepModeBase.cs">
+      <Link>SleepModeBase.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -54,10 +60,4 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\Xam.Plugins.ManageSleep.Common\Xam.Plugins.ManageSleep.Common.csproj">
-      <Project>{14C534B6-1984-41A9-A384-D3A5508588E3}</Project>
-      <Name>Xam.Plugins.ManageSleep.Common</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Xam.Plugins.ManageSleep</id>
-       <version>1.0.0.3</version>
+       <version>1.0.0.4</version>
        <title>ManageSleep Plugin for Xamarin</title>
        <authors>Molinet Fabien</authors>
        <owners></owners>
@@ -38,19 +38,13 @@
      <!--Xamarin.Android-->
      <file src="ManageSleep/Xam.Plugins.ManageSleep.Droid/bin/Release/Xam.Plugins.ManageSleep.Droid.dll" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Droid.dll" />
      <file src="ManageSleep/Xam.Plugins.ManageSleep.Droid/bin/Release/Xam.Plugins.ManageSleep.Droid.xml" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Droid.xml" />
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.Droid/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Common.dll" />
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.Droid/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/MonoAndroid10/Xam.Plugins.ManageSleep.Common.xml" />
     
      <!--Xamarin.iOS-->
 	 <file src="ManageSleep/Xam.Plugins.ManageSleep.Touch/bin/iPhone/Release/Xam.Plugins.ManageSleep.Touch.dll" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Touch.dll" />
      <file src="ManageSleep/Xam.Plugins.ManageSleep.Touch/bin/iPhone/Release/Xam.Plugins.ManageSleep.Touch.xml" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Touch.xml" />
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Common.dll" />
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/MonoTouch10/Xam.Plugins.ManageSleep.Common.xml" />
 
 	 <!--Xamarin.iOS Unified-->
      <file src="ManageSleep/Xam.Plugins.ManageSleep.TouchUnified/bin/Release/Xam.Plugins.ManageSleep.TouchUnified.dll" target="lib/Xamarin.iOS10/Xam.Plugins.ManageSleep.TouchUnified.dll" />
      <file src="ManageSleep/Xam.Plugins.ManageSleep.TouchUnified/bin/Release/Xam.Plugins.ManageSleep.TouchUnified.xml" target="lib/Xamarin.iOS10/Xam.Plugins.ManageSleep.TouchUnified.xml" />
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.TouchUnified/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/Xamarin.iOS10/Xam.Plugins.ManageSleep.Common.dll" />
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.TouchUnified/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/Xamarin.iOS10/Xam.Plugins.ManageSleep.Common.xml" />
    </files>
 </package>
