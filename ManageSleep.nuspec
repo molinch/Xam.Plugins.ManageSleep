@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Xam.Plugins.ManageSleep</id>
-       <version>1.0.0.5</version>
+       <version>1.0.0.6</version>
        <title>ManageSleep Plugin for Xamarin</title>
        <authors>Molinet Fabien</authors>
        <owners></owners>
@@ -21,8 +21,8 @@
    </metadata>
    <files>
 <!--Core-->
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/portable-net45+wp8+win8+MonoAndroid10+MonoTouch10/Xam.Plugins.ManageSleep.Common.dll" />
-     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xam.Plugins.ManageSleep.Common.xml" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.dll" target="lib/portable-win+net45+wp8+win8+wpa81/Xam.Plugins.ManageSleep.Common.dll" />
+     <file src="ManageSleep/Xam.Plugins.ManageSleep.Common/bin/Release/Xam.Plugins.ManageSleep.Common.xml" target="lib/portable-win+net45+wp8+win8+wpa81/Xam.Plugins.ManageSleep.Common.xml" />
     
      <!--Win Phone Silverlight 8-->
      <file src="ManageSleep/Xam.Plugins.ManageSleep.WPSL8/Bin/Release/Xam.Plugins.ManageSleep.WPSL.dll" target="lib/wp8/Xam.Plugins.ManageSleep.WP.dll" />
