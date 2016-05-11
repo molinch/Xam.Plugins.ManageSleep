@@ -85,14 +85,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Xam.Plugins.ManageSleep.Common\ISleepMode.cs">
-      <Link>ISleepMode.cs</Link>
-    </Compile>
-    <Compile Include="..\Xam.Plugins.ManageSleep.Common\SleepModeBase.cs">
-      <Link>SleepModeBase.cs</Link>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SleepMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xam.Plugins.ManageSleep.Common\Xam.Plugins.ManageSleep.Common.csproj">
+      <Project>{14c534b6-1984-41a9-a384-d3a5508588e3}</Project>
+      <Name>Xam.Plugins.ManageSleep.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

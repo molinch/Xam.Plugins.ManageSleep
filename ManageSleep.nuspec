@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Xam.Plugins.ManageSleep</id>
-       <version>1.1.0.0</version>
+       <version>1.2.0.0</version>
        <title>ManageSleep Plugin for Xamarin</title>
        <authors>Molinet Fabien</authors>
        <owners></owners>
@@ -15,7 +15,7 @@
          This allows running very long tasks without fearing the device going to sleep.
        </description>
        <summary>Manage auto sleep / auto lock in all platforms.</summary>
-       <tags>xamarin, pcl, xam.pcl, sleep, lock, sleeping, locking, disable, windows phone, winphone, wp8, android, ios</tags>
+       <tags>xamarin, pcl, xam.pcl, sleep, lock, sleeping, locking, windows phone, winphone, wp8, android, ios</tags>
        <dependencies>
        </dependencies>
    </metadata>
