@@ -1,15 +1,8 @@
-﻿using System;
-using Xam.Plugins.ManageSleep;
-
-#if __UNIFIED__
-using UIKit;
-#else
-using MonoTouch.UIKit;
-#endif
+﻿using UIKit;
 
 namespace Xam.Plugins.ManageSleep
 {
-    public class SleepMode: SleepModeBase
+    public class SleepMode : SleepModeBase
     {
         /// <summary>
         /// Activates or desactivates the auto sleep mode. True to activate it (default), False to deactivate it.
@@ -20,11 +13,10 @@ namespace Xam.Plugins.ManageSleep
         public override void ActivateAutoSleepMode(bool activateAutoSleepMode)
         {
             UIApplication.SharedApplication.InvokeOnMainThread(() =>
-                {
-                    UIApplication.SharedApplication.IdleTimerDisabled = activateAutoSleepMode; // hack to force it see our update...
-                    UIApplication.SharedApplication.IdleTimerDisabled = !activateAutoSleepMode;
-                });
+            {
+                UIApplication.SharedApplication.IdleTimerDisabled = activateAutoSleepMode; // hack to force it see our update...
+                UIApplication.SharedApplication.IdleTimerDisabled = !activateAutoSleepMode;
+            });
         }
     }
 }
-
