@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Xam.Plugins.ManageSleep</id>
-       <version>1.4.0.0</version>
+       <version>1.4.1.0</version>
        <title>ManageSleep Plugin for Xamarin</title>
        <authors>Molinet Fabien, Colin Dabritz</authors>
        <owners></owners>
@@ -20,6 +20,9 @@
        </dependencies>
    </metadata>
    <files>
+
+     <!-- Add a readme -->
+     <file src="readme.txt" target="" />
     
      <!--Win Phone Silverlight 8-->
      <file src="ManageSleep/Xam.Plugins.ManageSleep.WPSL8/Bin/Release/Xam.Plugins.ManageSleep.WPSL.dll" target="lib/wp8/Xam.Plugins.ManageSleep.WP.dll" />
