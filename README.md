@@ -5,7 +5,9 @@ Manage auto sleep / auto lock in all platforms. This is useful when dealing with
 
 NuGet package is available here: https://www.nuget.org/packages/Xam.Plugins.ManageSleep/
 
-###Usage
+### Usage
+**Android requires `WAKE_LOCK` permission, see below.**
+
 This should fit most scenarios. Instanciate SleepMode and use one of its method:
 
 ```C#
@@ -30,8 +32,19 @@ sleepMode.DoWithoutSleep(() => {
   //long running operation...
 });
 ```
+### Android permissions
 
-###Advanced usage
+Android requires that the app manifest includes the `WAKE_LOCK` permission.
+
+https://developer.android.com/reference/android/Manifest.permission.html#WAKE_LOCK
+
+Include this permission via your IDE or including this XML:
+
+```
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+```
+
+### Advanced usage
 If you need a fine-grained control of the auto sleep. Then you can use the following method:
 ```C#
 /// <summary>
